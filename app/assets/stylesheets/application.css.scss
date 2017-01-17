@@ -20,7 +20,7 @@
 
   //Typography Styles
 h1, h2, h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
   //Background Gradient
 .navbar, .home-callout {
@@ -46,7 +46,17 @@ h1, h2, h3 {
     color: white; 
     opacity: 0.75;
     }
-  
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+  background-color: #DAE2F8;
+  }
 }
 
   //Homepage Styles
